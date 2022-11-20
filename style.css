@@ -1,0 +1,150 @@
+* {
+   /* border: 1px solid red;*/
+    font-family: 'Amazon Ember', sans-serif;
+}
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.signin-container {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 21%;
+    padding: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    font-size: 30px;
+}
+
+label {
+    font-size: 0.7em;
+}
+
+.email-text {
+    display: flex;
+    margin-bottom: -2.5%;
+}
+
+.password-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2%;
+}
+
+.forgot-password {
+    padding-left: 40%;
+}
+
+.forgot-password, .help-link {
+    font-size: small;
+}
+
+
+.password-text {
+    margin-left: 11%;
+}
+
+.password-input-box {
+    margin-top: 1.25%;
+}
+
+input {
+    width: 96.5%;
+    padding: 1.5%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: flex;
+}
+
+.sumbit {
+    width: 100%;
+    background-color: rgb(245, 191, 66);
+    padding: 1.5%;
+    margin-bottom: 1%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.new {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 21.5%;
+}
+
+.new-text {
+    font-weight: 300;
+    color: gray;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid gray; 
+    line-height: 0.1em;
+    margin: 15px 0 20px;
+}
+
+.new-text span {
+    background: #fff;
+    padding:0 10px;
+}
+
+.create {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 100%;
+    padding: 1.5%;
+}
+.help {
+    margin-bottom: 1%;
+    height: 50px;
+}
+
+.help-list {
+    margin-bottom: 2px;
+    padding-left: 20px;
+}
+
+.help-link {
+    list-style-type: none;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 5%;
+    border-top: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-links {
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    font-size: small;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+}
+
+.privacy, .help, .condtions {
+    margin: 3%;
+}
+
+.copyright-text {
+    font-size: x-small;
+}
